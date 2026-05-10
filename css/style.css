@@ -112,7 +112,7 @@ header .menuBar li a:hover{
     background-color: #fff;
     padding: 10px 5px;
     border-radius: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     transition: 0.5s;
 }
 .contenido .tituloBox a:hover{
@@ -120,22 +120,6 @@ header .menuBar li a:hover{
     background-color: rgb(137, 66, 188);
     transition: 0.5s;
 }
-/*
-.contenido .imgBox{
-    width: 600px;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
-    margin-top: -50px;
-    z-index: -5;
-}
-.contenido .imgBox img{
-    height: 80vh;
-}
-.contenido .imgBox img:hover{
-    height: 80vh;
-}
-*/
 
 /*Copyright*/
 .copyright{
@@ -183,7 +167,7 @@ header .menuBar li a:hover{
     position: absolute;
     top: 0px;
     left: 0px;
-    background: rgba(2, 112, 108, 0.386);
+    background: rgba(137, 66, 188, 0.500);
     clip-path: circle(650px at right 800px);
     width: 100%;
     height: 100%;
@@ -221,15 +205,14 @@ header .menuBar li a:hover{
     height: 50px;
     width: 240px;
     text-align: center; 
-    cursor: pointer;
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(137, 66, 188);
     background-color: #fff;
     padding: 10px 25px;
     border-radius: 10px;
-    transition: 0.5s;
-    font-weight: 900;
+    transition: 0.3s;
+    font-weight: bold;
 }
 
 .btn-enviar:hover {
